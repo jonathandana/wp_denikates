@@ -1,0 +1,36 @@
+$font-size: 16px;
+$font-Heebo:'Heebo', sans-serif;
+$height-top-header:35px;
+
+
+$font-family:'Heebo', sans-serif;
+
+
+
+//width web site
+$width_site: 1200px;
+$width_min_site: 900px;
+
+
+
+$border_social_icons :1px solid #909090;
+$color_site : #e8a7b7;
+
+//z-index
+$overlay_index:100;
+$overlay_top_index:101;
+
+
+/**
+* if you change mobile width, change the file ts/cls/SimpleFunctions.ts const 'mobileWidth'.
+*/
+$width_mobile:768px;
+$width_sm:576px;
+
+
+//mobile
+$height_bar_mobile:58px;
+$height_bar_cart_mobile:56px;
+
+
+$color_error:#ff0908

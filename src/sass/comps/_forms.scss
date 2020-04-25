@@ -1,0 +1,60 @@
+.wrap-form{
+  $field_height:36px;
+
+  label{display: block;margin-bottom: 5px;
+    span{color:$color_error}
+  }
+
+  input,textarea{
+    border:1px solid $color_site;
+    height: $field_height;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  input[type="email"],input[type="phone"],input[type="password"]{
+    direction: ltr;
+    text-align: right;
+  }
+
+  .wrap-submit{
+    button{
+      @include btn_site();
+      text-align: center;
+      border: none;
+      height: $field_height;
+      width: 100%;
+      position: relative;
+      border-radius: 5px;
+      .jd-form-loading & {
+        .txt{display: none}
+      }
+      .loader{
+        display: none;
+        .jd-form-loading & {
+          display: block;
+        }
+        margin: 0;
+        @include center_center_absolute();
+        .inner1,.inner2, .inner3{border-color:white;background-color: white}
+      }
+    }
+  }
+
+}
+.wrap-submit{
+  button{
+    .jd-form-loading & {
+      .txt{display: none!important;}
+    }
+    .loader {
+      .jd-form-loading & {
+        display: block;
+    }
+    }
+  }
+}

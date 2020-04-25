@@ -1,0 +1,42 @@
+@import "../inc/mixin";
+
+.slider{
+   margin: 25px 0px;
+   position: relative;
+  .slide{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    //background-attachment: fixed;
+  }
+
+  .the-content{
+    @include center_absolute;
+    padding: 0px 26px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:20px;
+    h1{
+      color:white;
+      text-shadow: 0px 4px 5px rgba(146, 150, 150, 0.73);
+    }
+  }
+
+}
+
+.section-cat{
+  text-align: center;
+  h2{
+    display:inline-block;
+    @include underline_site();
+  }
+}
+.product-cards{
+  .title{text-align: center}
+  h2{
+    display: inline-block;
+    @include underline_site();
+  }
+}
+
+
+@import "../mq/pages/home-page";

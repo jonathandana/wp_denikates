@@ -1,0 +1,34 @@
+@import '../inc/variables';
+@import "../inc/mixin";
+
+.search-page{
+  margin-bottom: 20px;
+  h1{
+    span{color:$color_site}
+  }
+
+  .result{
+    border-bottom:2px dotted $color_site;
+    padding: 20px 0;
+
+    .thumb{
+      float: right;
+      width: 20%;
+    }
+    .info{
+      margin-right: 2%;
+      float: right;
+      width: 78%;
+      p{margin-top: 0;}
+    }
+
+    .title{
+      h2{display: inline-block;@include underline_site();margin-top: 0;}
+    }
+
+    a{color:black;
+      &:hover{color:$color_site}
+    }
+  }
+
+}

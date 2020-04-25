@@ -1,0 +1,7 @@
+@import '../inc/mixin';
+.wrap-cat-page{
+  .title {
+    text-align: center;
+    h1 {display:inline-block; @include underline_site()}
+  }
+}

@@ -1,0 +1,1049 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bynet Theme\n"
+"POT-Creation-Date: 2016-07-03 14:06+0300\n"
+"PO-Revision-Date: 2016-07-03 14:07+0300\n"
+"Last-Translator: Alexey <alexey@techmarketing.co.il>\n"
+"Language-Team: Techmarketing <alexey@techmarketing.co.il>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_x:1,2c;_e\n"
+"X-Poedit-SearchPath-0: ./..\n"
+"X-Poedit-SearchPathExcluded-0: ./../node_modules\n"
+
+#: ../404.php:4
+msgid "Sorry"
+msgstr "מצטערים"
+
+#: ../404.php:6
+msgid "The page you were looking for could not be found"
+msgstr "העמוד שחיפשת לא נמצא"
+
+#: ../404.php:11
+msgid "You can try to return to"
+msgstr "תוכל/י לנסות לחזור ל"
+
+#: ../404.php:11
+msgid "Home page"
+msgstr "עמוד הבית"
+
+#: ../404.php:12
+msgid "Or switch to another via the top menu"
+msgstr "או לעבור לעמוד אחר באמצעות התפריט העליון"
+
+#: ../footer.php:6
+msgid "All rights reserved Mashav"
+msgstr "כל הזכויות שמורות לחברת משאב"
+
+#: ../functions.php:152
+msgid "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: ../functions.php:153
+msgid "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: ../parts/accessibility-widget.php:3
+msgid "COLOR CONTRAST"
+msgstr "ניגודיות צבע"
+
+#: ../parts/accessibility-widget.php:7
+msgid "SKIP TO CONTENT"
+msgstr "מעבר לתוכן המרכזי"
+
+#: ../parts/accessibility-widget.php:12
+msgid "FONT SIZE"
+msgstr "גודל גופן"
+
+#: ../parts/accessibility-widget.php:15 ../parts/accessibility-widget.php:16
+#: ../parts/accessibility-widget.php:17
+msgid "a"
+msgstr "א"
+
+#: ../parts/accessibility-widget.php:22
+msgid "TURN OFF ACCESSIBILITY"
+msgstr "כבה נגישות"
+
+#: ../parts/header-desktop.php:25
+msgid "Accessibility"
+msgstr "נגישות"
+
+#: ../parts/header-search.php:4 ../parts/header-search.php:6
+msgid "search"
+msgstr "חיפוש"
+
+#: ../search.php:15
+msgid "search results"
+msgstr "תוצאות חיפוש"
+
+#: ../search.php:16
+msgid "Presents"
+msgstr "מציג"
+
+#: ../search.php:16
+msgid "of"
+msgstr "מתוך"
+
+#: ../search.php:16
+msgid "Results"
+msgstr "תוצאות"
+
+#: ../search.php:31
+msgid "read more"
+msgstr "קרא עוד"
+
+#: ../search.php:39
+msgid "No result found"
+msgstr "לא נמצאו תוצאות"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "תוצאות חיפוש עבור‪:‬ %s"
+
+#~ msgid "Page Not Found"
+#~ msgstr "העמוד לא נמצא"
+
+#~ msgid "Team"
+#~ msgstr "חבר צוות"
+
+#~ msgid "WA"
+#~ msgstr "נגישות"
+
+#~ msgid "Full Name"
+#~ msgstr "שם מלא"
+
+#~ msgid "invalid."
+#~ msgstr "לא תקין."
+
+#~ msgid "Please enter your full name."
+#~ msgstr "אנא הזן את שמך המלא."
+
+#~ msgid "Email Address"
+#~ msgstr "דואר אלקטרוני "
+
+#~ msgid "Please enter your email address."
+#~ msgstr "אנא הכנס את הדואר האלקטרוני שלך."
+
+#~ msgid "Subject"
+#~ msgstr "נושא"
+
+#~ msgid "Your Message"
+#~ msgstr "ההודעה שלך "
+
+#~ msgid "SEND MESSAGE"
+#~ msgstr "שלח הודעה"
+
+#~ msgid "Thank you!"
+#~ msgstr "תודה!"
+
+#~ msgid "your message was sent!"
+#~ msgstr "ההודעה נשלחה!"
+
+#~ msgid "Search"
+#~ msgstr "חיפוש"
+
+#~ msgid "READ MORE"
+#~ msgstr "קרא עוד"
+
+#~ msgid "The page you requested does not exist"
+#~ msgstr "הדף שביקשת אינו קיים"
+
+#~ msgid "Previous"
+#~ msgstr "קודם"
+
+#~ msgid "Next"
+#~ msgstr "הבא"
+
+#~ msgid "Bynet Blog"
+#~ msgstr "הבלוג של בינת"
+
+#~ msgid "Full name is required"
+#~ msgstr "יש להזין שם מלא"
+
+#~ msgid "Phone number is required"
+#~ msgstr "יש להזין מספר טלפון"
+
+#~ msgid "Email is required"
+#~ msgstr "יש להזין דוא\"ל"
+
+#~ msgid "Search for:"
+#~ msgstr "חיפוש עבור:"
+
+#~ msgid "A+"
+#~ msgstr "א+"
+
+#~ msgid "A-"
+#~ msgstr "א-"
+
+#~ msgid "Community Bynet"
+#~ msgstr "קהילת בינת"
+
+#~ msgid "Read more"
+#~ msgstr "לקריאה נוספת"
+
+#~ msgid "Worth reading"
+#~ msgstr "שווה קריאה"
+
+#~ msgid "All the hottest topics in ICT"
+#~ msgstr "כל הנושאים החמים ביותר בעולם ה-ICT"
+
+#~ msgid "Back"
+#~ msgstr "חזרה"
+
+#~ msgid "For additional details"
+#~ msgstr "לפרטים נוספים"
+
+#~ msgid "Date"
+#~ msgstr "תאריך"
+
+#~ msgid "Event Name"
+#~ msgstr "שם של אירוע"
+
+#~ msgid "Adress"
+#~ msgstr "כתובת"
+
+#~ msgid "More information"
+#~ msgstr "מידע נוסף"
+
+#~ msgid "Not found events at your request."
+#~ msgstr "לא נמצאו אירועים לפי בקשתך."
+
+#~ msgid "Latest news"
+#~ msgstr "חדשות אחרונות"
+
+#~ msgid "RAD-Bynet Group"
+#~ msgstr "קבוצת RAD בינת"
+
+#~ msgid "Because Your Needs Guide Us — Everyone Benefits"
+#~ msgstr "כאשר צרכי הלקוח הם שמכתיבים את השותף הטכנולוגי, כולם מרוויחים"
+
+#~ msgid "Our cooperation with a wide range of leading vendors allows us to maintain our position as an independent consultant, with the complete freedom to select the most appropriate technologies and solutions for each and every client and project."
+#~ msgstr "באמצעות שיתוף פעולה עם חברות רבות, המובילות בתחומן בעולם, אנו שומרים על מעמדנו כיועץ בלתי תלוי,<br/> ועל חופש מלא לבחירת הטכנולוגיות המתאימות ביותר עבור כל לקוח וכל פרויקט"
+
+#~ msgid "Match your solution"
+#~ msgstr "התאם לך פתרון"
+
+#~ msgid "What can we do for you?"
+#~ msgstr "מה אנחנו יכולים לעשות עבורך?"
+
+#~ msgid "Tell us what brings you to our website and we will start building the perfect solution for you"
+#~ msgstr "ספר לנו מה הביא אותך אלינו ונתחיל להרכיב ביחד את הפתרון המושלם עבורך"
+
+#~ msgid "Choose field:"
+#~ msgstr "בחר תחום:"
+
+#~ msgid "I'm interested in:"
+#~ msgstr "אני מעוניין ב:"
+
+#~ msgid "Leave details:"
+#~ msgstr "השאירו פרטים:"
+
+#~ msgid "You chose:"
+#~ msgstr "בחרת ב:"
+
+#~ msgid "Address"
+#~ msgstr "כתובת"
+
+#~ msgid "Activity Time"
+#~ msgstr "שעות פעילות"
+
+#~ msgid "Open Call Service"
+#~ msgstr "פתיחת קריאת שירות"
+
+#~ msgid "Main Branch"
+#~ msgstr "סניף ראשי"
+
+#~ msgid "Phone"
+#~ msgstr "טלפון"
+
+#~ msgid "Fax"
+#~ msgstr "פקס"
+
+#~ msgid "Filter by"
+#~ msgstr "סינון משרות"
+
+#~ msgid "Table Jobs"
+#~ msgstr "טבלת משרות"
+
+#~ msgid "Location"
+#~ msgstr "מיקום"
+
+#~ msgid "All Locations"
+#~ msgstr "כל הארץ"
+
+#~ msgid "Field"
+#~ msgstr "תחום"
+
+#~ msgid "All Fields"
+#~ msgstr "כל התחומים"
+
+#~ msgid "Role"
+#~ msgstr "תפקיד"
+
+#~ msgid "All roles"
+#~ msgstr "כל התפקידים"
+
+#~ msgid "Filter"
+#~ msgstr "אישור סינון"
+
+#~ msgid "Checkbox"
+#~ msgstr "סימון"
+
+#~ msgid "Job Description"
+#~ msgstr "תיאור משרה"
+
+#~ msgid "Area"
+#~ msgstr "איזור"
+
+#~ msgid "Number of Job"
+#~ msgstr "מספר משרה"
+
+#~ msgid "Posting Date"
+#~ msgstr "תאריך פרסום"
+
+#~ msgid "The latest release that will bring you up to focus"
+#~ msgstr "המהדורה האחרונה של העיתון שיכניס אותכם לפוקוס"
+
+#~ msgid "All the hottest topics in the world of ICT"
+#~ msgstr "כל הנושאים החמים ביותר בעולם ה-ICT"
+
+#~ msgid "Find file"
+#~ msgstr "עיון"
+
+#~ msgid "Not found vacancies at your request."
+#~ msgstr "לא נמצאו משרות לפי בקשתך."
+
+#~ msgid "Page"
+#~ msgstr "עמוד"
+
+#~ msgid "Can interest you"
+#~ msgstr "יכול לעניין אותך"
+
+#~ msgid "Read More"
+#~ msgstr "לקריאה נוספת"
+
+#~ msgid "Search Results"
+#~ msgstr "תוצאות חיפוש"
+
+#~ msgid "Search Results for"
+#~ msgstr "תוצאות חיפוש עבור"
+
+#~ msgid "glyphicon-menu-left"
+#~ msgstr "glyphicon-menu-right"
+
+#~ msgid "No results for"
+#~ msgstr "לא נמצאו תוצאות עבור"
+
+#~ msgid "Contact us"
+#~ msgstr "צור קשר"
+
+#~ msgid "Contact"
+#~ msgstr "יצירת קשר"
+
+#~ msgid "Leave details"
+#~ msgstr "השאירו פרטים"
+
+#~ msgid "OpenCall Service"
+#~ msgstr "פתיחת קריאת שירות"
+
+#~ msgid "contact us"
+#~ msgstr "צור קשר"
+
+#~ msgid "contact"
+#~ msgstr "יצירת קשר"
+
+#~ msgid "Main Bran"
+#~ msgstr "סניף ראשי"
+
+#~ msgid "Latest edition of the paper that will bring you to focus"
+#~ msgstr "המהדורה האחרונה של העיתון שיכניס אותכם לפוקוס"
+
+#~ msgid "Because Your Needs Guide <br/>Us — Everyone Benefits"
+#~ msgstr "כאשר צרכי הלקוח הם שמכתיבים את<br/> השותף הטכנולוגי, כולם מרוויחים"
+
+#~ msgid "Our cooperation with a wide range of leading vendors allows us to maintain our position as an independent consultant, <br/>with the complete freedom to select the most appropriate technologies and solutions for each and every client and project."
+#~ msgstr "באמצעות שיתוף פעולה עם חברות רבות, המובילות בתחומן בעולם, אנו שומרים על מעמדנו כיועץ בלתי תלוי,<br/> ועל חופש מלא לבחירת הטכנולוגיות המתאימות ביותר עבור כל לקוח וכל פרויקט"
+
+#~ msgid "RAD Group Bynet"
+#~ msgstr "קבוצת RAD בינת"
+
+#~ msgid "RAD group Bynet"
+#~ msgstr "קבוצת RAD בינת"
+
+#~ msgid "About bynet"
+#~ msgstr "אודות בינת"
+
+#~ msgid "Simon"
+#~ msgstr "סימון"
+
+#~ msgid "adress"
+#~ msgstr "כתובת"
+
+#~ msgid "phone"
+#~ msgstr "טלפון"
+
+#~ msgid "fax"
+#~ msgstr "פקס"
+
+#~ msgid "All Areas"
+#~ msgstr "כל התחומים"
+
+#~ msgid "Back to Home Page >"
+#~ msgstr "חזרה לעמוד הבית >"
+
+#~ msgid "Jobs"
+#~ msgstr "משרות"
+
+#~ msgid "Filter by:"
+#~ msgstr "סנן לפי:"
+
+#~ msgid "Job Area"
+#~ msgstr "איזור בארץ"
+
+#~ msgid "Subjects"
+#~ msgstr "תחומים"
+
+#~ msgid "Job"
+#~ msgstr "משרה"
+
+#~ msgid "Publish date"
+#~ msgstr "תאריך פרסום"
+
+#~ msgid "Show More Ads"
+#~ msgstr "טען פרסומים נוספים"
+
+#~ msgid "icon-right-open"
+#~ msgstr "icon-left-open"
+
+#~ msgid "Products"
+#~ msgstr "מוצרים"
+
+#~ msgid "Go to all jobs"
+#~ msgstr "לעוד המלצות של עובדים"
+
+#~ msgid "Corporate Responsibilities"
+#~ msgstr "אחריות תאגידית"
+
+#~ msgid "Page %s"
+#~ msgstr "עמוד %s"
+
+#~ msgid "He is a member of the winning team"
+#~ msgstr " הוא חבר בנבחרת המנצחת של"
+
+#~ msgid "As part of this team is going to the osem highest standards. For further information please go to the site osem"
+#~ msgstr "כחלק מהנבחרת הזו של אסם הוא עומד בסנדרטים הגבוהים ביותר. לפרטים נוספים היכנסו לאתר אסם"
+
+#~ msgid "This is another set of Osem from the best products and Nestle. As part of the community support Osem built the Osem sharing people with special needs in preparing packages. For further information please go to the Osem"
+#~ msgstr "זו עוד ערכה ממיטב המוצרים של אסם ונסטלה. כחלק מהתמיכה בקהילה אסם הקימה את פרויקט אסמים שמשתף אנשים בעלי צרכים מיוחדים בהכנת החבילות. לפרטים נוספים היכנסו לאתר אסם"
+
+#~ msgid "Search Product"
+#~ msgstr "חפש מוצר"
+
+#~ msgid "No translations available for this page"
+#~ msgstr "אין תרגום עבור עמוד זה"
+
+#~ msgid "Osem Group"
+#~ msgstr "קבוצת אסם"
+
+#~ msgid "A"
+#~ msgstr "א"
+
+#~ msgid "Want to contact us in your time?"
+#~ msgstr "רוצה ליצור איתנו קשר בזמנך?"
+
+#~ msgid "Our service center is available by phone"
+#~ msgstr "מוקד שירות הצרכנים שלנו עומד לרשותך בטלפון"
+
+#~ msgid "Service center activity hours"
+#~ msgstr "שעות פעילות המוקד"
+
+#~ msgid "Copyrights Warning Notice"
+#~ msgstr "אזהרת זכויות יוצרים"
+
+#~ msgid "Read terms & conditions"
+#~ msgstr "קריאת תקנון"
+
+#~ msgid "I accept"
+#~ msgstr "אני מסכים"
+
+#~ msgid "Cancel"
+#~ msgstr "ביטול"
+
+#~ msgid "Scroll the page and discover our history"
+#~ msgstr "גלול את העמוד וגלה את ההיסטוריה שלנו"
+
+#~ msgid "Osem News"
+#~ msgstr "ממשיכים לחדש לך"
+
+#~ msgid "Load more jobs blog posts"
+#~ msgstr "טען פרסומים נוספים"
+
+#~ msgid "Find your true <br>partner here at <br>Nestle Osem <br>Professional."
+#~ msgstr " מוזמנים להיכנס לאתר<br> אסם נסטלה פרופשיונל<br> ולגלות שותף מקצועי<br> אמיתי."
+
+#~ msgid "Enter >"
+#~ msgstr "לכניסה >"
+
+#~ msgid "Come and grow professionally at Osem"
+#~ msgstr "בואו לצמוח גם אתם בבית של אסם"
+
+#~ msgid "To the full list of positions >"
+#~ msgstr "לרשימת המשרות המלאה >"
+
+#~ msgid "Have a question about one of our product?<br/>Our Representatives will be happy to help."
+#~ msgstr "יש לכם שאלה או פניה בנוגע לאחד ממוצרינו?<br/>נציגנו ישמחו לסייע לכם."
+
+#~ msgid "Send us your query >"
+#~ msgstr "שלחו אלינו את פניתכם >"
+
+#~ msgid "Products Search"
+#~ msgstr "חיפוש מוצרים"
+
+#~ msgid "results found for:"
+#~ msgstr "תוצאות חיפוש עבור:"
+
+#~ msgid "Search result"
+#~ msgstr "תוצאות חיפוש"
+
+#~ msgid "Published:"
+#~ msgstr "פורסם:"
+
+#~ msgid "Send resume"
+#~ msgstr "שליחת קורות חיים"
+
+#~ msgid "Send a candidacy for employment"
+#~ msgstr "שלח מועמדות למשרה"
+
+#~ msgid "More Flavors"
+#~ msgstr "טעמים נוספים"
+
+#~ msgid "More recommended for you"
+#~ msgstr "עוד מומלצים עבורך"
+
+#~ msgid "Just for you know that..."
+#~ msgstr "רק שתדעו ש..."
+
+#~ msgid "Additional Types"
+#~ msgstr "סוגים נוספים"
+
+#~ msgid "Email"
+#~ msgstr "אימייל"
+
+#~ msgid "Telephon"
+#~ msgstr "טלפון"
+
+#~ msgid "gift packages"
+#~ msgstr "חבילות שי"
+
+#~ msgid "Additional Types:"
+#~ msgstr "סוגים נוספים:"
+
+#~ msgid "osem profecional"
+#~ msgstr "אסם פרופשיונל"
+
+#~ msgid "More Flavors:"
+#~ msgstr "טעמים נוספים"
+
+#~ msgid "loren ipsum"
+#~ msgstr "לורן יפסום"
+
+#~ msgid "Go to all testimonials"
+#~ msgstr "לעוד המלצות של עובדים"
+
+#~ msgid "View More"
+#~ msgstr "המשך קריאה"
+
+#~ msgid "Get to know us at Osem"
+#~ msgstr "בואו להכיר את הבית של אסם"
+
+#~ msgid "Join us at:"
+#~ msgstr "הצטרפו אלינו ב:"
+
+#~ msgid "%s Website"
+#~ msgstr "אתר %s"
+
+#~ msgid "News Osem"
+#~ msgstr "חדשות אסם"
+
+#~ msgid "News"
+#~ msgstr "חדשות"
+
+#~ msgid "Osem"
+#~ msgstr "אסם"
+
+#~ msgid "General error occurred"
+#~ msgstr "אירעה שגיאה כללית"
+
+#~ msgid "Design and Development By "
+#~ msgstr "עיצוב ופיתוח ע\"י "
+
+#~ msgid "א"
+#~ msgstr "A"
+
+#~ msgid "Normal"
+#~ msgstr "רגיל"
+
+#~ msgid "Big"
+#~ msgstr "גדול"
+
+#~ msgid "Contact Us"
+#~ msgstr "צור קשר"
+
+#~ msgid "No image available"
+#~ msgstr "לא נמצאה תמונה"
+
+#~ msgid "More Recommended for you"
+#~ msgstr "עוד מומלצים עבורך"
+
+#~ msgid "More Recommended for you:"
+#~ msgstr "עוד מומלצים עבורך:"
+
+#~ msgid "Let's grow in the Osem >"
+#~ msgstr "בואו לגדול באסם >"
+
+#~ msgid "More Recomended for you"
+#~ msgstr "עוד מומלצים עבורך"
+
+#~ msgid "Select a Product"
+#~ msgstr "בחר מוצר"
+
+#~ msgid "Featured Jobs"
+#~ msgstr "משרות מקודמות"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Jobs Blog"
+#~ msgstr "בלוג משרות"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Jobs Blog"
+#~ msgstr "בלוג משרות"
+
+#~ msgid "Jobs Blog"
+#~ msgstr "בלוג משרות"
+
+#~ msgid "Parent Item:"
+#~ msgstr "פריט אב:"
+
+#~ msgid "All Items"
+#~ msgstr "כל הפריטים"
+
+#~ msgid "View Item"
+#~ msgstr "צפייה בפריט"
+
+#~ msgid "Add New Item"
+#~ msgstr "הוסף פריט חדש"
+
+#~ msgid "Add New"
+#~ msgstr "הוסף חדש"
+
+#~ msgid "Edit Item"
+#~ msgstr "עריכת פריט"
+
+#~ msgid "Update Item"
+#~ msgstr "עדכון פריט"
+
+#~ msgid "Search Item"
+#~ msgstr "חיפוש פריט"
+
+#~ msgid "Not found"
+#~ msgstr "לא נמצא"
+
+#~ msgid "Not found in Trash"
+#~ msgstr "לא נמצא באשפה"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Jobs"
+#~ msgstr "משרות"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Jobs"
+#~ msgstr "משרה"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Teams"
+#~ msgstr "הצוות"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Team"
+#~ msgstr "חבר צוות"
+
+#~ msgid "Teams"
+#~ msgstr "הצוות"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Histories"
+#~ msgstr "היסטוריה"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "History"
+#~ msgstr "פריט היסטוריה"
+
+#~ msgid "Histories"
+#~ msgstr "היסטוריה"
+
+#~ msgid "History"
+#~ msgstr "פריט היסטוריה"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "World Sites"
+#~ msgstr "אתרי אינטרנט בעולם"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "World Site"
+#~ msgstr "אתר אינטרנט בעולם"
+
+#~ msgid "World Sites"
+#~ msgstr "אתרי אינטרנט בעולם"
+
+#~ msgid "World Site"
+#~ msgstr "אתר אינטרנט בעולם"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "International Activities"
+#~ msgstr "פעילות בין לאומית"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "International Activity"
+#~ msgstr "פעילות בין לאומית"
+
+#~ msgid "International Activities"
+#~ msgstr "פעילות בין לאומית"
+
+#~ msgid "International Activity"
+#~ msgstr "פעילות בין לאומית"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Children Companies"
+#~ msgstr "חברות בנות"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Children Company"
+#~ msgstr "חברות בנות"
+
+#~ msgid "Children Companies"
+#~ msgstr "חברות בנות"
+
+#~ msgid "Children Company"
+#~ msgstr "חברות בנות"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Gifts"
+#~ msgstr "מתנות"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Gift"
+#~ msgstr "מתנה"
+
+#~ msgid "Gifts"
+#~ msgstr "מתנות"
+
+#~ msgid "Gift"
+#~ msgstr "מתנה"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Factories"
+#~ msgstr "מפעלים"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Factory"
+#~ msgstr "מפעל"
+
+#~ msgid "Factories"
+#~ msgstr "מפעלים"
+
+#~ msgid "Factory"
+#~ msgstr "מפעל"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Vision and Values"
+#~ msgstr "ערכים וחזון"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Vision and Value"
+#~ msgstr "ערך"
+
+#~ msgid "Vision and Values"
+#~ msgstr "ערכים וחזון"
+
+#~ msgid "Vision and Value"
+#~ msgstr "ערך"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Products"
+#~ msgstr "מוצרים"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Product"
+#~ msgstr "מוצר"
+
+#~ msgid "Product"
+#~ msgstr "מוצר"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Corporate Responsibilities"
+#~ msgstr "אחריות תאגידית"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Corporate Responsibility"
+#~ msgstr "פריט אחריות תאגידית"
+
+#~ msgid "Corporate Responsibility"
+#~ msgstr "פריט אחריות תאגידית"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Nutrition Articles"
+#~ msgstr "מאמרי תזונה"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Nutrition Article"
+#~ msgstr "מאמר תזונה"
+
+#~ msgid "Nutrition Articles"
+#~ msgstr "מאמרי תזונה"
+
+#~ msgid "Nutrition Article"
+#~ msgstr "מאמר תזונה"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Business News"
+#~ msgstr "חדשות עסקיות"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Business News"
+#~ msgstr "חדשות עסקיות"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Business Financial"
+#~ msgstr "דוחות כספיים"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Business Financial"
+#~ msgstr "דוחות כספיים"
+
+#~ msgid "Business Financial"
+#~ msgstr "דוחות כספיים"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Business Analysts"
+#~ msgstr "אנליסטים מסקרים"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Business Analyst"
+#~ msgstr "אנליסט מסקר"
+
+#~ msgid "Business Analysts"
+#~ msgstr "אנליסטים מסקרים"
+
+#~ msgid "Business Analyst"
+#~ msgstr "אנליסט מסקר"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Homepage News"
+#~ msgstr "חדשות עמוד הבית"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Homepage News"
+#~ msgstr "חדשות עמוד הבית"
+
+#~ msgid "Homepage News"
+#~ msgstr "חדשות עמוד הבית"
+
+#~ msgid "Testimonials"
+#~ msgstr "עדויות"
+
+#~ msgid "Testimonial"
+#~ msgstr "עדות"
+
+#~ msgid "Add New Testimonial"
+#~ msgstr "הוספת עדות חדשה"
+
+#~ msgid "Edit Testimonial"
+#~ msgstr "עריכת עדות"
+
+#~ msgid "New Testimonial"
+#~ msgstr "עדות חדשה"
+
+#~ msgid "View Testimonials"
+#~ msgstr "צפייה בעדות"
+
+#~ msgid "Search Testimonials"
+#~ msgstr "חיפוש עדות"
+
+#~ msgid "No testimonials found"
+#~ msgstr "לא נמצאו עדויות"
+
+#~ msgid "No testimonials found in Trash"
+#~ msgstr "לא נמצאו עדויות"
+
+#~ msgid "Watch the full catalog"
+#~ msgstr "לצפייה בקטלוג המלא"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Jobs Subjects"
+#~ msgstr "תחומים"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Job Subject"
+#~ msgstr "תחום"
+
+#~ msgid "Jobs Subjects"
+#~ msgstr "תחומים"
+
+#~ msgid "Parent Item"
+#~ msgstr "פריט אב:"
+
+#~ msgid "New Item Name"
+#~ msgstr "הוסף פריט חדש"
+
+#~ msgid "Separate items with commas"
+#~ msgstr "הפרד פריטים עם פסיקים"
+
+#~ msgid "Search Items"
+#~ msgstr "חיפוש"
+
+#~ msgid "Add or remove items"
+#~ msgstr "הוסף או הסר פריטים"
+
+#~ msgid "Choose from the most used items"
+#~ msgstr "בחר מתוך הפריטים הפופולריים"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Jobs Areas"
+#~ msgstr "איזורים"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Job Area"
+#~ msgstr "איזור"
+
+#~ msgid "Jobs Areas"
+#~ msgstr "איזורים"
+
+#~ msgctxt "osem_theme"
+#~ msgid "Team Categories"
+#~ msgstr "קטגוריות הצוות"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Team Category"
+#~ msgstr "קטגורית הצוות"
+
+#~ msgid "Team Categories"
+#~ msgstr "קטגוריות הצוות"
+
+#~ msgctxt "osem_theme"
+#~ msgid "Years"
+#~ msgstr "שנים"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Year"
+#~ msgstr "שנה"
+
+#~ msgid "Years"
+#~ msgstr "שנים"
+
+#~ msgctxt "osem_theme"
+#~ msgid "Product Categories"
+#~ msgstr "קטגוריות מוצרים"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Product Category"
+#~ msgstr "קטגורית מוצר"
+
+#~ msgid "Product Categories"
+#~ msgstr "קטגוריות מוצרים"
+
+#~ msgctxt "osem_theme"
+#~ msgid "Nutrition Tags"
+#~ msgstr "תגיות תזונה"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Nutrition Tag"
+#~ msgstr "תגית תזונה"
+
+#~ msgid "Nutrition Tags"
+#~ msgstr "תגיות תזונה"
+
+#~ msgctxt "osem_theme"
+#~ msgid "Nutrition Articles Categories"
+#~ msgstr "קטגוריות מאמרי תזונה"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Nutrition Article Category"
+#~ msgstr "קטגורית מאמרי תזונה"
+
+#~ msgid "Nutrition Articles Categories"
+#~ msgstr "קטגוריות מאמרי תזונה"
+
+#~ msgid "Testimonial categories"
+#~ msgstr "קטגוריות עדויות"
+
+#~ msgid "Testimonial category"
+#~ msgstr "קטגורית עדויות"
+
+#~ msgid "For your convinience you can also send us your request"
+#~ msgstr "לנוחיותך, ניתן גם לשלוח אלינו את פנייתך"
+
+#~ msgid "We'll gladly go back to you as soon as possible"
+#~ msgstr "ואנחנו נשמח לחזור אליך בהקדם האפשרי."
+
+#~ msgid "Send Contact Request"
+#~ msgstr "לשליחת פנייה"
+
+#~ msgid "For full jobs list click here"
+#~ msgstr "לרשימת משרות מלאה"
+
+#~ msgid "Back >"
+#~ msgstr "חזרה >"
+
+#~ msgid "Find your true professional partner here at Nestle-Osem."
+#~ msgstr " מוזמנים להיכנס לאתר אסם נסטלה פרופשיונל ולגלות שותף מקצועי אמיתי."
+
+#~ msgctxt "osem_theme"
+#~ msgid "Nutrition Articles"
+#~ msgstr "מאמרי תזונה"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Nutrition Article"
+#~ msgstr "מאמר תזונה"
+
+#~ msgid "Enter your search"
+#~ msgstr "חיפוש"
+
+#~ msgid "Published by"
+#~ msgstr "מאת"
+
+#~ msgid "Role purpose"
+#~ msgstr "מטרת התפקיד"
+
+#~ msgid "Responsibilities"
+#~ msgstr "תחומי אחריות"
+
+#~ msgid "Requirements"
+#~ msgstr "דרישות משרה"
+
+#~ msgctxt "osem_theme"
+#~ msgid "Jobs Subjects"
+#~ msgstr "תחומים"
+
+#~ msgctxt "osem_theme"
+#~ msgid "Jobs Areas"
+#~ msgstr "איזורים"
+
+#~ msgid "read more >"
+#~ msgstr "קרא עוד >"
+
+#~ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "המשך קריאה <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "team"
+#~ msgstr "הצוות"
+
+#~ msgid "history"
+#~ msgstr "היסטוריה"
+
+#~ msgid "international_activity"
+#~ msgstr "פעילות בין לאומית"

@@ -1,0 +1,16 @@
+@import 'comps/preloader_site';
+@import "comps/slider";
+@import "inc/general_syles";
+@import "comps/forms";
+@import 'comps/header';
+@import "comps/sticky_main_menu";
+@import 'comps/shop_cart';
+@import 'comps/search_form';
+@import 'base/general';
+@import "base/woocommerce";
+@import 'comps/footer';
+@import "inc/footer_fixed";
+@import "accessibility/accessibility";
+@import "super-login/main";
+//Media queries
+@import "mq/general";

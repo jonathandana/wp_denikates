@@ -1,0 +1,64 @@
+# htaccess custom error messages
+
+ErrorDocument 400 "Bad Request"
+ErrorDocument 401 "Unauthorized"
+ErrorDocument 402 "Payment Required"
+ErrorDocument 403 "Forbidden"
+ErrorDocument 404 "Not Found"
+ErrorDocument 405 "Method Not Allowed"
+ErrorDocument 406 "Not Acceptable"
+ErrorDocument 407 "Proxy Authentication Required"
+ErrorDocument 408 "Request Timeout"
+ErrorDocument 409 "Conflict"
+ErrorDocument 410 "Gone"
+ErrorDocument 411 "Length Required"
+ErrorDocument 412 "Precondition Failed"
+ErrorDocument 413 "Request Entity Too Large"
+ErrorDocument 414 "Request-URI Too Long"
+ErrorDocument 415 "Unsupported Media Type"
+ErrorDocument 416 "Requested Range Not Satisfiable"
+ErrorDocument 417 "Expectation Failed"
+ErrorDocument 500 "Internal Server Error"
+ErrorDocument 501 "Not Implemented"
+ErrorDocument 502 "Bad Gateway"
+ErrorDocument 503 "Service Unavailable"
+ErrorDocument 504 "Gateway Timeout"
+ErrorDocument 505 "HTTP Version Not Supported"
+
+<FilesMatch "xmlrpc.php">
+    RewriteEngine On
+    RewriteRule .* - [R=404]
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    #show 404 instead of 403 for directories without index file
+    RewriteCond %{SCRIPT_FILENAME} -d
+    RewriteCond %{SCRIPT_FILENAME}/index.php !-f
+    RewriteCond %{SCRIPT_FILENAME}/index.html !-f
+    RewriteRule .* - [R=404,L]
+
+    RewriteBase /
+    RewriteCond %{REQUEST_URI} !.*\.(js|png|jpg|jpeg|gif|css|ico|xml|swf|txt|pdf|svg|eot|woff|csv|bmp) [NC]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+
+    #Header set X-Frame-Options "SAMEDOMAIN"
+#    Header set X-Frame-Options DENY
+#    Header set X-Content-Type-Options nosniff
+#    Header set X-XSS-Protection "1; mode=block"
+
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

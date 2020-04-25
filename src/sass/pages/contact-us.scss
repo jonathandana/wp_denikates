@@ -1,0 +1,90 @@
+@import '../inc/variables';
+@import "../inc/mixin";
+.latin{direction: ltr;text-align: left}
+.contact-us{
+  margin-bottom: 30px;
+  .min-container{
+    display: flex;
+  }
+  .wrap-content{width: 58%}
+  .title{
+    text-align: right;
+    h1{
+      margin-top:0;
+      display:inline-block;
+      @include underline_site();
+    }
+  }
+
+  .wrap-form{
+    $field_height:36px;
+
+    width: 40%;
+    margin-right: 2%;
+    label{display: block;margin-bottom: 5px;
+      span{color:$color_error}
+    }
+    input,textarea{
+      border:1px solid $color_site;
+      height: $field_height;
+      width: 100%;
+      text-indent: 4px;
+      box-sizing: border-box;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+      background-color: white;
+    }
+    #email,#phone{@include latin()}
+
+    textarea{height: 60px}
+    .wrap-field{
+      position: relative;
+      padding-bottom: 20px;
+      &:nth-of-type(1){float: right;width: 48%;margin-left: 2%}
+      &:nth-of-type(2){float: left;width: 48%}
+      &:nth-of-type(3){clear: both}
+      .error-message{position: absolute;bottom: 4px;right: 0;font-size: 0.8em}
+    }
+    .wrap-submit{
+      button{
+        @include btn_site();
+        text-align: center;
+        border: none;
+        height: $field_height;
+        width: 100%;
+        position: relative;
+        .loader{
+          display: none;
+          margin: 0;
+          @include center_center_absolute();
+          .inner1,.inner2, .inner3{border-color:white;background-color: white}
+        }
+      }
+    }
+    .thanks{
+      text-align: center;
+      padding-top: 16px;
+      display: none;
+      color: #008000;
+    }
+  }
+
+  @media (max-width: $width_mobile){
+    .min-container{flex-direction:column;}
+    .wrap-content{width: 100%}
+    .wrap-form{width: 100%;margin-right:0;}
+
+  }
+}
+
+#form_contactus.jd-form-loading{
+  .wrap-field{opacity: 0.4;pointer-events: none}
+  .wrap-submit button {
+    .val-text{display: none;}
+    .loader{display: block;}
+  }
+}
+
+#form_contactus.jd-form-success{
+  .thanks{display: block;}
+}
+

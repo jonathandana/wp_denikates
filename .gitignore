@@ -1,0 +1,13 @@
+*.idea
+node_modules
+*.DS_Store
+public_html/content/themes/denikates/view/
+public_html/content/uploads
+public_html/.DS_Store
+public_html/content/.DS_Store
+public_html/content/plugins/.DS_Store
+public_html/content/plugins/jd-functions/.DS_Store
+public_html/content/themes/.DS_Store
+package-lock.json
+yarn.lock
+public_html/content/cache/

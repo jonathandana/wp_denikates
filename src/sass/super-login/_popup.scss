@@ -1,0 +1,111 @@
+
+.popup-login{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 11111;
+  &:not(.active){
+    display: none;
+  }
+
+
+  .overlay-popup{
+    position: absolute;
+    @include getOverlayStyle();
+  }
+
+  .content-popup{
+    @include center_absolute();
+    top:50px;
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    padding: 30px 30px 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    overflow: auto;
+    @media (max-width: $width_sm) {
+      flex-direction: column;
+    }
+  }
+  .tabs{
+    width: 20%;
+    @media (max-width: $width_sm) {
+      width: 100%;
+      ul{
+        display: flex;
+        justify-content: space-around;
+        margin: 12px 0;
+      }
+    }
+  }
+  .popup-content{
+    position: relative;
+    padding-right: 8%;
+    width: 72.4%;
+    @media (max-width: $width_sm) {
+      width: 100%;
+      padding-right:0;
+    }
+    .reset-password &{
+      padding-right: 0;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .content-tab:not(.active){display:none}
+
+    &:after{
+      content: "";
+      width: .4em;
+      height: 100%;
+      background-color:$color_site;
+      position: absolute;
+      right: 0;
+      top: 0;
+      @media (max-width: $width_sm) {
+        display: none;
+      }
+    }
+  }
+  ul{
+    padding: 0;
+    margin: -10px 0;
+    li {
+      margin: 10px 0;
+      list-style: none;
+    }
+    a.active{color:$color_site}
+  }
+  .tab-login{text-decoration: none;}
+
+  .title-form{
+    display: inline-block;
+    margin: 0 0 20px;
+    @include underline_site()}
+
+  body:not(.reset-password) & {
+    .reset_pass {
+      display: none;
+    }
+  }
+
+  body.reset-password &{
+    .popup-content:after,.tabs,.content-tab  {display: none;}
+  }
+
+  .close-popup{
+    @include reset_btn();
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 2em;
+    &:hover{
+      color:$color_site;
+    }
+  }
+}
+
+

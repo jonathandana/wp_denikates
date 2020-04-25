@@ -1,0 +1,24 @@
+.popup-content{
+  .wrap-form{
+    fieldset{
+      margin: 0;
+      padding: 0;
+      border:0;
+    }
+    .wrap-field{
+      padding-bottom: 20px;
+      position: relative;
+      .error-message {
+        position: absolute;
+        bottom: 5px;
+        font-size: 0.8em;
+      }
+    }
+    .message-thanks{
+      margin-top: 20px;
+      color: green;
+      display: none;
+    }
+  }
+  .wrap-submit{margin-bottom: 30px}
+}

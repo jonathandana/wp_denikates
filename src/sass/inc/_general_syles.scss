@@ -1,0 +1,59 @@
+@import '../inc/variables';
+
+img{display: block; max-width: 100%; height: auto;}
+
+
+ul ,li , a {font-size: 1em;}
+a{
+  color:black;
+  &:hover{color:$color_site;}
+}
+
+/*heading*/
+h1{font-size:1.8em;}
+h2{font-size:1.500em;}
+h3{font-size:1.400em;}
+h4{font-size:1.300em;}
+h5{font-size:1.200em;}
+h6{font-size:1.100em;}
+
+p , .singular li{line-height: 1.4em;}
+
+//Generals Inputs.
+input{-webkit-appearance: none}
+textarea{resize:none;}
+button{cursor: pointer}
+
+//special classes
+.hide{display: none!important}
+
+
+
+//Errors Fields
+form .error{
+  transition: 0.3s;
+  border-color: $color_error!important;
+  background-color: $color_error!important;
+  color:white!important;
+  &::placeholder{color:white}
+}
+.error-message{color:#ff0908}
+
+
+#shipping_method{
+  li{
+
+    label{
+      cursor: pointer;
+    }
+    input[type='radio']:checked + label{
+      color:$color_site;
+    }
+  }
+}
+
+@media (max-width: $width_mobile) {
+  button,a,input,textarea{
+    outline:none!important;
+  }
+}

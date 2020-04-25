@@ -1,0 +1,31 @@
+.contrast{
+  //GLOBALS OPTIONS.
+  background-color: black;
+  color:white;
+  img , .inner-thumb , .home-page .slide{filter: grayscale(100%)!important;}
+  a{color:white!important;}
+  .li-font-size , .showcoupon , .wc_payment_method{color: black!important}
+
+  .wrap-shop-cart {
+    color: black!important;
+    .wrap-icon-cart {
+      background-color: white;
+      color: black!important;
+    }
+    a, .woocommerce-Price-amount {color: black !important;}
+  }
+
+  #top_header,footer{
+    background-color: white;
+    a {color: black!important};
+    .facebook-application a{color: white!important}
+  }
+
+  .wrap-cards .card{
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  }
+
+
+
+
+}

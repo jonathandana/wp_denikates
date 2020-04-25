@@ -1,0 +1,80 @@
+@import "../inc/variables";
+@import "../inc/mixin";
+//page cart and checkout
+.woocommerce-checkout , .woocommerce-cart{
+  .wrap-shop-cart{display: none;}
+  .woocommerce-message , .woocommerce-info {border-top-color:$color_site!important}
+  .woocommerce-message:before , .woocommerce-info:before{color:$color_site!important}
+}
+
+//global class
+.woo-btn-denikates,.woocommerce .button.alt{
+ @include btn_site();
+}
+
+
+.woocommerce-cart{
+  .product-name{
+    a{color:black;
+      &:hover{color:$color_site}
+    }
+  }
+  a.remove{
+    color:$color_site!important;
+    &:hover{background:$color_site!important}
+  }
+  table.shop_table{border-color: $color_site!important}
+}
+
+.woocommerce-checkout{
+  .showcoupon{
+    color:black;
+    &:hover{color:$color_site}
+  }
+  .col-1{float: right!important;}
+  .col-2{float: left!important;}
+  //fields checkout
+  .input-text{
+    border: 1px solid $color_site;
+    height: 36px;
+    text-indent: 4px;
+    &#order_comments{height: 164px;}
+  }
+  #shipping_method{
+    label{
+      cursor: pointer;
+      text-decoration:underline;
+    }
+    input:checked + label , label:hover{color:$color_site}
+  }
+
+  table.shop_table{
+    border-color: $color_site!important;
+    td,th{border-color: $color_site!important}
+  }
+}
+
+.woocommerce-order-received{
+  a {
+    color:black;
+    &:hover{color:$color_site;}
+  }
+}
+
+.woocommerce-column--shipping-address{
+  display: none;
+}
+
+//Mobile
+
+@media (max-width: $width_mobile){
+  .cart-subtotal{
+    th,td{border-bottom: 1px solid rgba(0,0,0,.1);}
+  }
+  .shipping{
+    th,td{display: block;width: 100%;border-top: none!important;}
+    #shipping_method{
+      li{padding: 9px 12px!important;}
+    }
+  }
+}

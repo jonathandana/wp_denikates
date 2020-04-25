@@ -1,0 +1,22 @@
+@import "../inc/variables";
+@import "../inc/mixin";
+
+footer{
+  @include bar_black();
+  height: auto;
+  position: relative;
+  .facebook-application{
+    position: absolute;
+    bottom:100%;
+    display: none;
+    z-index: $overlay_top_index;
+    .close{
+      position: absolute;
+      top: -30px;
+      left: -25px;
+      font-size: 2em;
+      z-index: $overlay_top_index;
+    }
+  }
+  .fa-facebook-official{margin: 0 5px;}
+}

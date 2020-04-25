@@ -1,0 +1,31 @@
+.sl-login{
+  .btn-user{
+    @include reset_btn();
+    font-size: 0.9em;
+    color: white;
+    display: flex;
+    align-items: center;
+    .icon-user{font-size: 2em}
+    .name{margin-right: 5px;}
+    span{display: block}
+    &:hover{color:$color_site;}
+  }
+}
+
+#top_header{
+  .btn-user{
+    @include center_center_absolute();
+  }
+}
+
+.sticky-wrap-main-menu{
+  display: flex;
+  align-items: center;
+  .sl-login{
+    margin-right: 10px;
+    .btn-user{
+      font-size: 1em;
+
+    }
+  }
+}

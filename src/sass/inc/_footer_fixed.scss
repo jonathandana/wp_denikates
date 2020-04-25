@@ -1,0 +1,25 @@
+@import "variables";
+
+@media (min-width: $width_mobile) {
+
+  html, body {
+    height: 100%;
+  }
+
+  main{
+    padding-bottom: $height-top-header;
+  }
+  #main_wrapper{
+    position: relative;
+    min-height: 100%;
+  }
+
+  footer{
+    position: absolute;left: 0;right: 0;bottom:0;
+
+  }
+  .search-results{
+    footer{position: static}
+  }
+
+}

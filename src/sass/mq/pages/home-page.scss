@@ -1,0 +1,17 @@
+@import "../../inc/variables";
+@media (max-width: $width_mobile){
+  .slider{
+    margin-top:0;
+    .slide{
+      background-size: cover;
+      background-position: top left;
+      min-height: 200px;
+      img{display: none}
+    }
+    .arrow{bottom: 5px;}
+    .the-content{
+      width: 200px;
+      h1{font-size:1.2em}
+    }
+  }
+}

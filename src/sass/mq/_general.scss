@@ -1,0 +1,121 @@
+@import "../inc/variables";
+@import "../inc/mixin";
+.jd-mobile{display: none;}
+
+
+@media (max-width: 1400px) and (min-width: 900px)  {
+  .slider .arrow{display: block;}
+}
+//only Desktop
+@media (min-width:$width_mobile){
+  .section-cat{
+    .swiper-wrapper{display: inline-block;}
+  }
+
+}
+
+//intial media queries width site //example 1200 px.
+@media (max-width: $width_site){
+  .container , .min-container{padding: 0 10px;}
+
+  //cards
+  .wrap-cards{
+    .card{
+      width: 32%;
+      @media(max-width:$width_min_site){
+        width: 48%;
+      }
+    }
+
+  }
+
+}
+
+
+//initial media queries mobile.
+@media (max-width:$width_mobile){
+  //none mobiles elements
+  .jd-desktop{display: none}
+  .jd-mobile{display: block}
+
+  body{padding-top: $height_bar_mobile;padding-bottom:$height_bar_cart_mobile}
+  body.woocommerce-checkout , body.woocommerce-cart{
+    padding-bottom:0;
+  }
+
+  .jd-home-slider{
+    .swiper-pagination{bottom: 0;position: relative;}
+    .wrap-cards{
+      &.container{padding:0}
+      .card{width: 80%}
+    }
+  }
+
+  .add-to-cart {
+    .quantity{width: 100%;margin-top:10px;}
+    .submit{width: 100%;margin-top: 10px;}
+  }
+
+
+  @import "comps/top-bar-mobile";
+
+  //area shop cart
+  .wrap-shop-cart{
+      bottom: 0;
+      top: auto;
+      width: 100%;
+      left: 0;
+      right: 0;
+    .wrap-icon-cart{
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 0;
+        background: rgba(0, 0, 0, 0.9);
+        .count-product{
+            top: 28%;
+            left: 60%;
+            transform: translate(-50%,-50%);
+          }
+        }
+
+  }
+  .info-cart{
+    right: -$width_mobile;
+    width: 100%;
+    bottom: $height_bar_cart_mobile;
+    &.active{right: 0}
+    ul{max-height: 285px;}
+
+  }
+
+  .open-search{
+    color: #fff;
+    font-size: 2em;
+    @include center_center_absolute();
+    &:hover{color:$color_site;}
+  }
+  .search-form{
+    position: fixed;
+    padding-top: $height_bar_mobile;
+    top:0;
+    left: 0;
+    right: 0;
+    padding-right:15px;
+    padding-left: 15px;
+    .wrap-field.search{width: 70%;}
+    .wrap-field.submit{width: 25%;}
+    }
+
+
+  footer{
+    text-align: center;
+    line-height: inherit;
+    padding: 10px 0;
+    .wrap-info{float: none;margin-top: 10px;}
+    .facebook-application{
+      .close{left: 0;top:-34px;}
+      @include center_absolute()
+    }
+  }
+
+}

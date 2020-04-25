@@ -1,0 +1,66 @@
+@import "variables";
+@mixin center_absolute(){
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+@mixin center_center_absolute(){
+  position:absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin middle_absolute(){
+  position:absolute;
+  top:50%;
+  transform: translate(0%, -50%);
+}
+
+@mixin bar_black{
+  height: $height-top-header;
+  line-height: $height-top-header;
+  background-color: black;
+  ul{padding: 0;margin: 0;list-style: none;
+    li{float:right;}
+    li:nth-child(1) a{border-right: $border_social_icons}
+    a{padding: 7px 18px;border-left: $border_social_icons;}
+  }
+  //global a
+  a{
+    color:white;
+    font-size: 0.9em;
+    text-decoration: none;
+    &:hover{color:$color_site}
+  }
+
+  .wrap-social-icons{float: right;}
+  .wrap-info{float: left;}
+
+}
+
+@mixin btn_site{
+  background-color: $color_site!important;color:white!important;
+  &:hover{opacity:0.8}
+}
+
+@mixin underline_site{
+  border-bottom: 3px solid $color_site;
+}
+
+@mixin latin{direction: ltr;text-align: left}
+
+@mixin reset_btn{
+  -webkit-appearance: none;
+  background-color: transparent;
+  border:none;
+}
+
+@mixin getOverlayStyle(){
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}

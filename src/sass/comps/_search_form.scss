@@ -1,0 +1,85 @@
+@import "../inc/variables";
+@import "../inc/mixin";
+
+.search-form{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  z-index: $overlay_top_index;
+  display: none;
+  left: 0;
+  right: 0;
+  top:$height-top-header;
+  form{
+    max-width: 420px;
+    padding: 30px 0;
+    margin: 0 auto;
+  }
+
+  .wrap-field{
+    float: right;
+    position: relative;
+    &.search{
+      width: 75%;
+      #form_search{
+        -webkit-appearance: none;
+        height: 34px;
+        text-indent: 4px;
+        box-sizing: border-box;
+        border:1px solid $color_site;
+        width: 100%;
+      }
+    }
+
+    &.submit{
+      width: 20%;
+      margin-right: 5%;
+      #form_submit{
+        border:none;
+        cursor: pointer;
+        width: 100%;
+        height: 34px;
+        @include btn_site();
+
+      }
+    }
+
+    .wrap-auto-complete{
+      position:absolute;
+      top:34px;
+      right: 0;
+      width: 100%;
+      border: 1px solid #e8a7b7;
+      background-color: white;
+      box-sizing: border-box;
+      ul{
+        list-style: none;
+        margin: 0;
+        padding:0;
+        li{
+          a {
+            outline: none;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom:1px solid #e8a7b7;
+            img {
+              width: 40px;
+            }
+            &:hover,&:focus{
+              background-color: $color_site;
+              color:white;
+            }
+            .name-product{margin-right: 15px;}
+          }
+          &:nth-last-child(1) a{
+            border:none;
+          }
+        }
+      }
+    }
+  }
+
+
+
+}
